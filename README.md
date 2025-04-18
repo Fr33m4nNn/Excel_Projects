@@ -36,7 +36,7 @@ The dataset used for this project contains water pollution and health-related da
 
 # Dashboard Build
 
-## 📉 Charts
+### 📉 Charts
 
 ### 📈 Pollution Trend Over Time – Line Chart
 
