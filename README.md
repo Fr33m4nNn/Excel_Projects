@@ -31,3 +31,39 @@ The dataset used for this project contains water pollution and health-related da
 - 📉 GDP per capita, sanitation, healthcare access
   
 *Note: For the purposes of this dashboard, the analysis focuses on core water quality indicators, access to clean water, urbanization rate, and water treatment methods — not all available variables were used.*
+
+# Dashboard Build
+
+## 📉 Charts
+
+## PART 1
+
+## 🗺️ Median Contaminant Levels by Country – Map Chart
+
+GIF
+
+- 🛠️ Excel Features: Used Excel’s map chart to visualize the median contaminant levels across selected countries.
+- 🎨 Design Choice: Applied color gradients to indicate severity of pollution levels — darker tones represent higher contamination.
+- 📊 Data Representation: Median values were calculated based on selected water quality indicators, filtered by country and year.
+- 👁️ Visual Enhancement: Enables immediate comparison between countries’ water conditions.
+- 💡 Insights Gained: Helps identify countries with relatively higher pollutant concentrations, drawing attention to potential areas of concern.
+
+## 🧮 Formulas and Functions
+
+💧 Median Pollution by Country
+```
+=MEDIAN(
+ FILTER(
+    INDEX(water_pollution, SEQUENCE(ROWS(water_pollution)), MATCH(indicator, water_pollution[#Headers], 0)),
+    (water_pollution[Year] = year) *
+    (water_pollution[Country] = A2)
+ )
+)
+```
+- 🔍 Multi-Criteria Filtering: Filters data based on selected year, country, and indicator.
+- 📊 Array Formula: Uses MEDIAN() and FILTER() to dynamically compute central tendencies.
+- 🎯 Tailored Insights: Returns specific median pollution levels per country for the chosen indicator.
+- 🔢 Formula Purpose: Powers the data table used for generating bar charts, highlighting regional differences in water quality metrics.
+
+### 🍽️ Background Table
+
