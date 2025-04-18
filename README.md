@@ -86,7 +86,7 @@ The dataset used for this project contains water pollution and health-related da
   - 🚫 Incorrect or inconsistent entries are prevented
   - 👥 Overall usability of the dashboard is enhanced
 
-![Data Validation](images/5_data_validation)
+![Data Validation](images/5_data_validation.gif)
 
 
 # ✅ Conclusion
