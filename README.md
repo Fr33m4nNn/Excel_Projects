@@ -36,11 +36,21 @@ The dataset used for this project contains water pollution and health-related da
 
 ## 📉 Charts
 
-## PART 1
+### 📈 Pollution Trend Over Time – Line Chart
+
+![Line Chart](images/2_line_chart.png)
+
+🛠️ Excel Features: Utilized dynamic line chart with named ranges and data validation for selecting the indicator.
+📊 Data Representation: Tracks changes in a selected pollution metric (e.g., turbidity, lead concentration, etc.) across multiple years.
+🎨 Design Choice: Clean, minimal style with dynamic filtering—lets users change the indicator via dropdown and instantly updates the chart.
+🔁 Interactivity: Automatically adjusts based on selected country and indicator, enabling year-over-year comparisons.
+💡 Insights Gained: Helps identify whether pollution levels are improving or worsening over time and highlights the effectiveness (or lack) of interventions.
+
+
 
 ## 🗺️ Median Contaminant Levels by Country – Map Chart
 
-GIF
+![Map](images/3_world_map.gif)
 
 - 🛠️ Excel Features: Used Excel’s map chart to visualize the median contaminant levels across selected countries.
 - 🎨 Design Choice: Applied color gradients to indicate severity of pollution levels — darker tones represent higher contamination.
@@ -66,4 +76,22 @@ GIF
 - 🔢 Formula Purpose: Powers the data table used for generating bar charts, highlighting regional differences in water quality metrics.
 
 ### 🍽️ Background Table
+
+![Map](images/4_background_country.png)
+
+## ❎ Data Validation
+### 🔍 Filtered List
+- 🔒 Enhanced Data Validation: Implementing the filtered list as a data validation rule under the Job Title, Country, and Type option in the Data tab ensures:
+  - 🎯 User input is restricted to predefined, validated schedule types
+  - 🚫 Incorrect or inconsistent entries are prevented
+  - 👥 Overall usability of the dashboard is enhanced
+
+![Data Validation](images/5_data_validation)
+
+
+# ✅ Conclusion
+
+I created this dashboard to visualize and explore trends in water pollution across 10 countries. The goal was to provide insights into how environmental and infrastructural factors—like water source type, urbanization rate, and access to clean water—affect water quality over time.
+
+Throughout this project, I practiced dynamic Excel techniques to build an interactive experience where users can filter data by year, country, and specific contaminants. The result is a tool that helps users better understand global water challenges and evaluate pollution patterns with ease.
 
