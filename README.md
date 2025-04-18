@@ -8,8 +8,10 @@ The dashboard allows users to filter by year, country, and contaminant type to v
 
 This project was part of my Excel learning journey, where I practiced building dynamic and interactive dashboards using real-world datasets and advanced Excel features.
 
+🔗 Data Source: [Water Pollution and Disease Dataset on Kaggle](https://www.kaggle.com/datasets/khushikyad001/water-pollution-and-disease/data)
+
 ## 📊 Dashboard File
-My final dashboard is in [Water_Pollution_Dashboard.xlsx](Water_Pollution_Dashboard.xlsx).
+My final dashboard is in [Water_Pollution_Dashboard.xlsx](Water_Pollution_Dashboard.xlsx)
 
 ## 🧠 Excel Skills Used
 The following Excel skills were utilized for analysis:
