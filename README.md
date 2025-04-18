@@ -1,5 +1,5 @@
 # Water Pollution Dashboard
- 
+ ![](images/1_Dashboard.gif)
 ## 🌊 Introduction
 
 This water pollution dashboard was created to explore environmental and water quality conditions across 10 countries using key indicators such as contaminant levels, access to clean water, and urbanization rates.
