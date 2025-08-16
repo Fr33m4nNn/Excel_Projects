@@ -10,6 +10,8 @@ This project was part of my Excel learning journey, where I practiced building d
 
 🔗 Data Source: [Water Pollution and Disease Dataset on Kaggle](https://www.kaggle.com/datasets/khushikyad001/water-pollution-and-disease/data)
 
+⚠️ Disclaimer: The dataset used in this project contains simulated values and does not represent actual real-world statistics. All results and insights are for demonstration and learning purposes only.
+
 ## 📊 Dashboard File
 My final dashboard is in [Water_Pollution_Dashboard.xlsx](Water_Pollution_Dashboard.xlsx)
 
