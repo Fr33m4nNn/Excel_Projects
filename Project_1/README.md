@@ -1,5 +1,5 @@
 # Water Pollution Dashboard
- ![](images/1_Dashboard.gif)
+ ![](../images/P1/1_Dashboard.gif)
 ## 🌊 Introduction
 
 This water pollution dashboard was created to explore environmental and water quality conditions across 10 countries using key indicators such as contaminant levels, access to clean water, and urbanization rates.
@@ -40,7 +40,7 @@ The dataset used for this project contains water pollution and health-related da
 
 ### 📈 Pollution Trend Over Time – Line Chart
 
-![Line Chart](images/2_line_chart.png)
+![Line Chart](../images/P1/2_line_chart.png)
 
 🛠️ Excel Features: Utilized dynamic line chart with named ranges and data validation for selecting the indicator.
 📊 Data Representation: Tracks changes in a selected pollution metric (e.g., turbidity, lead concentration, etc.) across multiple years.
@@ -52,7 +52,7 @@ The dataset used for this project contains water pollution and health-related da
 
 ## 🗺️ Median Contaminant Levels by Country – Map Chart
 
-![Map](images/3_world_map.gif)
+![Map](../images/P1/3_world_map.gif)
 
 - 🛠️ Excel Features: Used Excel’s map chart to visualize the median contaminant levels across selected countries.
 - 🎨 Design Choice: Applied color gradients to indicate severity of pollution levels — darker tones represent higher contamination.
@@ -79,7 +79,7 @@ The dataset used for this project contains water pollution and health-related da
 
 ### 🍽️ Background Table
 
-![Map](images/4_background_country.png)
+![Map](../images/P1/4_background_country.png)
 
 ## ❎ Data Validation
 ### 🔍 Filtered List
@@ -88,7 +88,7 @@ The dataset used for this project contains water pollution and health-related da
   - 🚫 Incorrect or inconsistent entries are prevented
   - 👥 Overall usability of the dashboard is enhanced
 
-![Data Validation](images/5_data_validation.gif)
+![Data Validation](../images/P1/5_data_validation.gif)
 
 
 # ✅ Conclusion
