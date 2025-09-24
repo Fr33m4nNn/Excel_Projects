@@ -53,22 +53,22 @@ This dataset compiles historical records of Nobel Prize awards. It contains data
 - Then, I transformed each query by changing column types, removing unnecessary columns, cleaning incomplete birth dates, extracting founding years for organizations, filling missing values with "Organization", and removing rows with errors or null IDs.
     - 📊 nobel
 
-        ![1](/images/1.png)
+        ![1](../images/P2/1.png)
 
     - 🛠️ nobel_affiliation
 
-        ![2](/images/2.png)
+        ![2](../images/P2/2.png)
 
 #### 🔗 Load
 
 - Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
     - 📊 nobel
 
-        ![3](/images/3.png)
+        ![3](../images/P2/3.png)
 
     - 🛠️ nobel_affiliation
 
-        ![4](/images/4.png)
+        ![4](../images/P2/4.png)
 
 
 ### 🧮 Skills: PivotTables & DAX
@@ -131,13 +131,13 @@ IF(
 
 - I created a relationship between my two tables using the `nobel_id` column.
 
-    ![5](/images/5.png)
+    ![5](../images/P2/5.png)
 
 #### 📃 Power Pivot Menu
 
 - The Power Pivot menu was used to refine my data model and makes it easy to create measures.
 
-    ![6](/images/6.png)
+    ![6](../images/P2/6.png)
 
 
 
@@ -152,7 +152,7 @@ IF(
 
 - 💰 Adjusted prize values highlight that all categories have experienced significant value erosion over time, especially visible in fields like Chemistry and Literature.
 
-![1_1](/images/1_1.png)
+![1_1](../images/P2/1_1.png)
 
 #### 📌 Takeaway
 
@@ -168,7 +168,7 @@ These patterns reveal historical funding priorities and may reflect how differen
 
 - 🔄 In recent decades, the total number of prizes per year has become more consistent, peaking in the late 1990s and 2000s.
 
-![2_1](/images/2_1.png)
+![2_1](../images/P2/2_1.png)
 
 #### 📌 Takeaway
 
@@ -186,7 +186,7 @@ This timeline highlights how global events can disrupt even long-standing instit
 
 - 🌟 In contrast, the youngest laureates were typically awarded in their 20s or early 30s, suggesting early breakthroughs or significant activism, especially in Peace and Physics.
 
-![3_1](/images/3_1.png)
+![3_1](../images/P2/3_1.png)
 
 #### 📌 Takeaway
 
@@ -204,7 +204,7 @@ The Nobel Prize doesn't follow a “one age fits all” pattern — breakthrough
 
 - 📉 Some schools, like **Caltech**, have fewer affiliations but relatively high median prize values, suggesting fewer but more lucrative awards.
 
-![4_1](/images/4_1.png)
+![4_1](../images/P2/4_1.png)
 
 #### 📌 Takeaway
 
@@ -236,7 +236,7 @@ Only four individuals have been awarded the Nobel Prize twice — a rare and pre
 - 🧬 These laureates span across **Physics, Chemistry,** and **Peace,** with awards given between 1903 and 1981 — showcasing decades of excellence in both scientific advancement and global impact.
 
 
-![5_1](/images/5_1.png)
+![5_1](../images/P2/5_1.png)
 
 #### 📌 Takeaway
 
